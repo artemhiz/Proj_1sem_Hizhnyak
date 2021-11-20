@@ -1,3 +1,4 @@
+# Функция добавляет введенное число слева. Функция вызвана в программе дважды, последовательно показаны шаги решения
 def countdig(k):
     a = 1
     while k // 10 != 0:
@@ -6,10 +7,10 @@ def countdig(k):
     return a
 
 
-def addleftdigit(D, K):
-    if 0 < D < 10:
-        K += D * (10 ** countdig(K))
-        return K
+def addleftdigit(d, k):
+    if 0 < d < 10:
+        k += d * (10 ** countdig(K))
+        return k
     else:
         print('Произошла ошибка во время рассчета. Проверьте введенные данные и попробуйте еще раз.')
         return None
