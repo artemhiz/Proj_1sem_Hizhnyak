@@ -1,26 +1,20 @@
 a = []
-n = int(input('Введите количество элементов в списке:'))
+n = int(input('Введите количество элементов в списке: '))
 
 while n:
-    a.append(input('Введите число:'))
+    a.append(input('Введите число: '))
     n -= 1
 
-delist = []
+b = []
+for i in range(len(a)):
+    if (i + 1) % 2 != 0:
+       b.append(a[i])
+b.sort()
+
+Max = b[-1]
+index = int
 for i in range(len(a) - 1):
-    if i % 2 == 0:
-        delist.append(i)
+    if a[i] == Max:
+        index = i
 
-for i in delist:
-    del a[i]
-
-
-max = a[0]
-index = 0
-k = 0
-
-for i in a:
-    k += 1
-    if i > max:
-        max = i
-        index = k + 1
-print('Максимальное значение в списке у элемента', index, '=', max)
+print('Максимальное значение у элемента №', index + 1, '=', Max)
