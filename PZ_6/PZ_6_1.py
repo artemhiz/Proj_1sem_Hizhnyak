@@ -15,7 +15,7 @@ b.sort()
 
 Max = b[-1]
 index = int
-for i in range(len(a) - 1):
+for i in range(len(a)):
     if a[i] == Max:
         index = i
 

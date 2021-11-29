@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ №6" />
+    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ №6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +42,7 @@
       <recent name="C:\Users\Student\PycharmProjects\POKS-21\Proj_1sem_Hizhnyak\PZ_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_6_3">
+  <component name="RunManager" selected="Python.PZ_6_1">
     <configuration name="PZ_4_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Hizhnyak" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PZ_6_3" />
         <item itemvalue="Python.PZ_6_1" />
+        <item itemvalue="Python.PZ_6_3" />
         <item itemvalue="Python.PZ_6_2" />
         <item itemvalue="Python.PZ_5_1" />
         <item itemvalue="Python.PZ_4_1" />
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638183688522</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлено ПЗ №6">
+      <created>1638183762180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638183762180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
