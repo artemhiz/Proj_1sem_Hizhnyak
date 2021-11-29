@@ -1,10 +1,12 @@
+# Программа выводит на экран только нечетные элементы списка
+import random
 a = []
 n = int(input('Введите количество элементов в списке: '))
 
 while n:
-    a.append(input('Введите число: '))
+    a.append(random.randint(0, 100))
     n -= 1
-
+print(a)
 b = []
 for i in range(len(a)):
     if (i + 1) % 2 != 0:
