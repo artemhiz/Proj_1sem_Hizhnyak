@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ №13">
+    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="ПЗ-14 в разработке">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_14/PZ_14_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14/PZ_14_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_14/result" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14/result" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
       <recent name="C:\Users\Student\PycharmProjects\POKS-21\Proj_1sem_Hizhnyak\PZ_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_14_1">
+  <component name="RunManager" selected="Python.prosto">
     <configuration name="PZ_13_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Hizhnyak" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,27 +60,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_13/PZ_13_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PZ_13_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Hizhnyak" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_13/PZ_13_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,13 +131,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prosto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Hizhnyak" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_14/prosto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prosto" />
         <item itemvalue="Python.PZ_14_1" />
         <item itemvalue="Python.PZ_15_2" />
         <item itemvalue="Python.PZ_15_1" />
         <item itemvalue="Python.PZ_13_1" />
-        <item itemvalue="Python.PZ_13_2" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646058903121</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ПЗ-14 в разработке">
+      <created>1647270672384</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647270672384</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +292,7 @@
     <MESSAGE value="Добавлено ПЗ №9" />
     <MESSAGE value="Добавлено ПЗ №11" />
     <MESSAGE value="Добавлено ПЗ №13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено ПЗ №13" />
+    <MESSAGE value="ПЗ-14 в разработке" />
+    <option name="LAST_COMMIT_MESSAGE" value="ПЗ-14 в разработке" />
   </component>
 </project>
