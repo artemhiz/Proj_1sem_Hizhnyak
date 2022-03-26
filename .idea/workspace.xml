@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="ПЗ-14 в разработке">
+      <change beforePath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_14/PZ_14_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14/PZ_14_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_14/result" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14/result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +28,10 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="3f3162a3-21d9-49e7-a4ef-1b998a167573" />
+    <option name="defaultAccountId" value="e90491bf-f959-48bc-8a6a-4afef003eb5a" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zMetLREvp8uchxbu6d353F7AVv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,8 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,7 +53,7 @@
       <recent name="C:\Users\Student\PycharmProjects\POKS-21\Proj_1sem_Hizhnyak\PZ_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prosto">
+  <component name="RunManager" selected="Python.PZ_15_2">
     <configuration name="PZ_13_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Hizhnyak" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prosto" />
-        <item itemvalue="Python.PZ_14_1" />
         <item itemvalue="Python.PZ_15_2" />
         <item itemvalue="Python.PZ_15_1" />
+        <item itemvalue="Python.prosto" />
+        <item itemvalue="Python.PZ_14_1" />
         <item itemvalue="Python.PZ_13_1" />
       </list>
     </recent_temporary>
@@ -282,7 +289,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлено ПЗ №5" />
