@@ -8,8 +8,7 @@ print("Изначальная матрица: ", re.sub(',', '', re.sub('( \[)|(
 while True:
     n = int(input('\nВведите порядковый номер столбца: ')) - 1
     if n <= 0:
-        print('ВВедите значение больше ноля')
+        print('Введите значение больше ноля')
     else: break
-for i in range(len(a)):
-    a[i][n] *= 2
+a = [[a[i][j] * 2 if j == n else a[i][j] for j in range(len(a[0]))] for i in range(len(a))]
 print("\nИтоговая матрица:    ", re.sub(',', '', re.sub('( \[)|(\]\])', '', re.sub('(\[\[)|(\],)', '\n', str(a)))))

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="ПЗ-14 в разработке">
-      <change beforePath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ-15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647270672384</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Добавлено ПЗ-15">
+      <created>1648301380184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648301380184</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +303,7 @@
     <MESSAGE value="Добавлено ПЗ №11" />
     <MESSAGE value="Добавлено ПЗ №13" />
     <MESSAGE value="ПЗ-14 в разработке" />
-    <option name="LAST_COMMIT_MESSAGE" value="ПЗ-14 в разработке" />
+    <MESSAGE value="Добавлено ПЗ-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено ПЗ-15" />
   </component>
 </project>
