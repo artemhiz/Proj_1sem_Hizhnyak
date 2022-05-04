@@ -11,7 +11,7 @@ def calculate():
             k += 1
         answer['text'] = 'n^2 + (n+1)^2 + ... + 2n^2 = '+str(s)
     except ValueError:
-        answer['text'] = 'Ошибка ввода данных. \nВведите целое число'
+        answer['text'] = 'Ошибка ввода данных. \nВведите целое число.'
 
 
 root = Tk()

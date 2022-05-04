@@ -22,7 +22,7 @@ elif randint == 2:
     randpic = '✿'
 print('SYSTEM REPORT: PASSWORD')
 print('\''+randpic+'\' will be in the password'
-      if randint != 2 else 'Lucky one, \''+randpic+'\' will be in the password')
+      if randint != 2 else 'Lucky one, \''+randpic+'\' will be in the password.')
 
 namframe = Frame(root, background=wincolor)
 firnam = Label(namframe, text='First Name', width=labwidth, anchor='e', background=wincolor)
