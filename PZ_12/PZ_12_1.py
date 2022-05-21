@@ -86,7 +86,6 @@ def submitclick():
     # AGREEMENT
     if agreed.get() != 1:
         messagebox.showinfo("Information", "You haven't agreed to the Terms of Use. \nWe can't use your info")
-        root.grab_set()
     else:
         print('\nSYSTEM REPORT: AGREEMENT \nUser agreed to the Terms of Use')
         confirmations += 1
