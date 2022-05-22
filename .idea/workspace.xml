@@ -7,18 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ-12">
-      <change beforePath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj_1sem_Hizhnyak.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c29065b0-9ba4-4ba8-a96f-2549cec68679" name="Default Changelist" comment="Добавлено ПЗ №16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_10/FfPZ_10_2" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_10/FfPZ_10_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_12/PZ_12_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_12/PZ_12_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_13/PZ_13_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_13/PZ_13_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules_figures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/DataBase.db" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/DataBase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651650103265</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавлено ПЗ №16">
+      <created>1653169752319</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653169752319</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +264,7 @@
     <MESSAGE value="Добавлено ПЗ-15" />
     <MESSAGE value="Добавлено упражнение по модульному программированию" />
     <MESSAGE value="Добавлено ПЗ-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено ПЗ-12" />
+    <MESSAGE value="Добавлено ПЗ №16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено ПЗ №16" />
   </component>
 </project>

@@ -109,15 +109,15 @@ class TableView(ttk.Treeview):
     def find_record(self, condition, value, condition_range='='):
         if condition == 'ID':
             if condition_range == '<':
-                self.cur.execute("""SELECT * FROM Data WHERE id < ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE id <:id""", {"id": value})
             elif condition_range == '≤':
-                self.cur.execute("""SELECT * FROM Data WHERE id <= ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE id <=:id""", {"id": value})
             elif condition_range == '=':
-                self.cur.execute("""SELECT * FROM Data WHERE id = ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE id =:id""", {"id": value})
             elif condition_range == '≥':
-                self.cur.execute("""SELECT * FROM Data WHERE id >= ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE id >=:id""", {"id": value})
             elif condition_range == '>':
-                self.cur.execute("""SELECT * FROM Data WHERE id > ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE id >:id""", {"id": value})
         elif condition == 'Имя клиента':
             self.cur.execute("""SELECT * FROM Data WHERE client_name LIKE:client""", {"client": value.capitalize()+'%'})
         elif condition == 'Имя мастера':
@@ -129,15 +129,15 @@ class TableView(ttk.Treeview):
                              {"service": value.capitalize()+'%'})
         elif condition == 'Стоимость':
             if condition_range == '<':
-                self.cur.execute("""SELECT * FROM Data WHERE cost < ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE cost <:cost""", {"cost": value})
             elif condition_range == '≤':
-                self.cur.execute("""SELECT * FROM Data WHERE cost <= ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE cost <=:cost""", {"cost": value})
             elif condition_range == '=':
-                self.cur.execute("""SELECT * FROM Data WHERE cost = ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE cost =:cost""", {"cost": value})
             elif condition_range == '≥':
-                self.cur.execute("""SELECT * FROM Data WHERE cost >= ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE cost >=:cost""", {"cost": value})
             elif condition_range == '>':
-                self.cur.execute("""SELECT * FROM Data WHERE cost > ?""", value)
+                self.cur.execute("""SELECT * FROM Data WHERE cost >:cost""", {"cost": value})
 
         [self.delete(i) for i in self.get_children()]
         [self.insert('', 'end', values=row) for row in self.cur.fetchall()]
